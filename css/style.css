@@ -33,35 +33,35 @@ body, html {
 }
 @font-face {
     font-family: 'Chronicle Display Light Italic';
-    src: url('../fonts/ChronicleDisplay-LightItalic.woff2') format('woff2'),
-        url('../fonts/ChronicleDisplay-LightItalic.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-LightItalic.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'Chronicle Display Semibold Italic';
-    src: url('../fonts/ChronicleDisplay-SemiItalic.woff2') format('woff2'),
-        url('../fonts/ChronicleDisplay-SemiItalic.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-SemiItalic.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-SemiItalic.woff') format('woff');
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
     font-family: 'Chronicle Display Bold Italic';
-    src: url('../fonts/ChronicleDisplay-BoldItalic.woff2') format('woff2'),
-        url('../fonts/ChronicleDisplay-BoldItalic.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-BoldItalic.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: 'Chronicle Display Black';
-    src: url('../fonts/ChronicleDisplay-Black.woff2') format('woff2'),
-        url('../fonts/ChronicleDisplay-Black.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-Black.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-Black.woff') format('woff');
     font-weight: 900;
 }
 @font-face {
     font-family: 'Chronicle Display Black Italic';
-    src: url('../fonts/ChronicleDisplay-BlackItalic.woff2') format('woff2'),
-        url('../fonts/ChronicleDisplay-BlackItalic.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-BlackItalic.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
 }
@@ -313,32 +313,32 @@ body, html {
                         width: 100%; 
                     }  
                         #block-1 {
-                            background-image: url('../img/cardenal-01.webp?v2');
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-01.webp?v2');
                             opacity: 1; 
                             z-index: 10;
                         }    
                         #block-2 {
-                            background-image: url('../img/cardenal-02.png');
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-02.png');
                             opacity: 0; 
                             z-index: 20;
                         }       
                         #block-3 {
-                            background-image: url('../img/cardenal-03.png');
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-03.png');
                             opacity: 0; 
                             z-index: 30;
                         } 
                         #block-4 {            
-                            background-image: url('../img/cardenal-04.png');
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-04.png');
                             opacity: 0; 
                             z-index: 40;
                         }  
                         #block-5 {        
-                            background-image: url('../img/cardenal-05.png');    
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-05.png');    
                             opacity: 0;
                             z-index: 50;
                         }
                         #block-6 {        
-                            background-image: url('../img/cardenal-06.png');    
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-06.png');    
                             opacity: 0;
                             z-index: 60;
                         }
@@ -386,53 +386,53 @@ body, html {
                 background-size: 55%;
             }
             #block-7 {
-                background-image: url('../img/mapa-01.png?v2');
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-01.png?v2');
                 opacity: 1; 
                 z-index: 10;
             }    
             #block-8 {
-                background-image: url('../img/mapa-02.png');
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-02.png');
                 opacity: 0; 
                 z-index: 20;
             }       
             #block-9 {
-                background-image: url('../img/mapa-03.png');
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-03.png');
                 opacity: 0; 
                 z-index: 30;
             } 
             #block-10 {            
-                background-image: url('../img/mapa-04.png');
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-04.png');
                 opacity: 0; 
                 z-index: 40;
             }  
             #block-11 {        
-                background-image: url('../img/mapa-05.png');    
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-05.png');    
                 opacity: 0;
                 z-index: 50;
             }
             #block-12 {        
-                background-image: url('../img/mapa-06.png');    
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-06.png');    
                 opacity: 0;
                 z-index: 60;
             }
             #block-13 {        
-                background-image: url('../img/mapa-07.png');    
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-07.png');    
                 opacity: 0;
                 z-index: 70;
             }
             #block-14 {        
-                background-image: url('../img/mapa-08.png');    
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-08.png');    
                 opacity: 0;
                 z-index: 80;
             }
             #block-15 {        
-                background-image: url('../img/mapa-09.png');    
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-09.png');    
                 opacity: 0;
                 z-index: 80;
             }
     ul.cardenales{
         background-color: #fff;
-        margin: 0 auto 40px;
+        margin: 0 auto 80px;
         padding: 0;
         text-align: center;
     }
