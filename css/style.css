@@ -175,7 +175,7 @@ body, html {
             text-align: center;
         }
             .box-titulo h2 span{
-                color: #A68939;
+                color: #fff;
             }
         img.flecha-bajar{
             cursor: pointer;
@@ -637,7 +637,22 @@ body, html {
                     display: block;
                     font-family: 'actobold';
                 }
-
+    a.btn-tag{
+        background-color: #B50014;
+        border-radius: 32px;
+        box-sizing: border-box;
+        color: #fff;
+        display: block;
+        font: 1rem/1.2 'actobold';
+        margin: 20px auto 40px;
+        max-width: 250px;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+        a.btn-tag:hover{
+            text-decoration: underline;
+        }
 
 
 
