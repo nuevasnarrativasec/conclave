@@ -1,0 +1,774 @@
+.clear{
+    clear: both;
+}
+
+body, html {    
+    margin: 0;    
+    padding: 0;    
+    font-style: normal;
+    font-display: swap;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'actobook';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-book-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-book-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actosemibold';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-semibold-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-semibold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actobold';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-bold-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actoextrabold_italic';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-extrabold_italic-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-extrabold_italic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Chronicle Display Light Italic';
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-LightItalic.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Chronicle Display Semibold Italic';
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-SemiItalic.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-SemiItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Chronicle Display Bold Italic';
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-BoldItalic.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Chronicle Display Black';
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-Black.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-Black.woff') format('woff');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Chronicle Display Black Italic';
+    src: url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-BlackItalic.woff2') format('woff2'),
+        url('https://nuevasnarrativasec.github.io/conclave/fonts/ChronicleDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+#header{
+    margin-bottom: 50px;
+    width: 100%;
+}
+    .header-comercio{   
+        background: #000;    
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 9999999;
+    }
+        .ctn-header-comercio{
+            margin: 0 auto;     
+            max-width: 1024px;
+            padding: 0 5px;
+            text-align: right;
+        }
+            .ctn-header-comercio a{
+                display: inline-block;                
+                text-indent: -9999px;
+            }
+                a.logo-comercio{
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/somos-35-anos-mejores-portadas-ecpm/img/logo-comercio.png?v2) no-repeat 0 0;
+                    background-size: 100%;
+                    display: none;
+                    height: 30px;
+                    margin-top: 10px;
+                    width: 110px;
+                }
+                #social{
+                        float: right;
+                        margin: 20px;
+                        position: absolute;
+                        right: 0;
+                        z-index: 600;
+                }
+                #social ul{
+                    display: inline-block;
+                    margin: 0 auto;
+                    padding: 0;
+                    vertical-align: middle;
+                }
+                    #social ul li{
+                        display: inline-block;
+                        margin: 0 3px;
+                        vertical-align: middle;
+                    }
+                        #social ul li a{
+                            height: 36px;
+                            width: 36px;
+                        }
+                        #fb{
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/fb-icon.png?v2) no-repeat 0 0;
+                            background-size: 100% !important;
+                            border: none;
+                            display: inline-block;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        }
+                        #wst{                
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
+                            background-size: 100% !important;
+                            border: none;
+                            display: none;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        }
+                        #tw{            
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
+                            background-size: 100% !important;
+                            border: none;
+                            display: inline-block;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        } 
+#portada{
+    background: url('../img/bg-portada-papa.jpg') no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+    .box-titulo{
+        bottom: 50px;
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+    }
+        img.logo-comercio{
+            display: block;
+            margin: 0 auto 5px;
+            max-width: 150px;
+        }
+        .box-titulo h1{
+            color: #fff;
+            font: 6.5rem/1.1 'Chronicle Display Black Italic';
+            margin: 0 auto;
+            text-align: center;
+        }
+        .box-titulo h2{
+            color: #fff;
+            font: 2rem/1.2 'Chronicle Display Light Italic';
+            margin: 0 auto;
+            text-align: center;
+        }
+            .box-titulo h2 span{
+                color: #fff;
+            }
+        img.flecha-bajar{
+            cursor: pointer;
+            display: block;
+            margin: 40px auto 0;
+            max-width: 50px;
+        }
+#main{
+    background-color: #000;
+}
+    .box-bajada{
+        padding: 50px 0;
+        text-align: center;
+    }
+        .box-bajada span.separador{
+            background: #fff;
+            display: block;
+            height: 1px;
+            margin: 0 auto;
+            max-width: 200px;
+        }
+        .box-bajada h3{
+            color: #fff;
+            font: 1.1rem/1.6 'actosemibold';
+            margin: 0 auto;
+            max-width: 560px;
+            padding: 40px 0;
+            text-align: center;
+        }
+            .box-bajada h3 span,
+            .box-proceso h3{
+                color: #A68939;
+            }
+    .box-cardenales{    
+        padding-top: 20px;    
+        text-align: center;
+    }
+        .box-cardenales h4,
+        .box-eleccion h4{
+            color: #A68939;
+            font: 2.1rem/1.3 'Chronicle Display Semibold Italic';
+            margin: 0 auto 20px;
+        }
+        .box-cardenales p,
+        .box-eleccion p,
+        .box-sede p,
+        .box-proceso p{
+            color: #fff;
+            font: 1.1rem/1.6 'actobook';
+            margin: 0 auto;
+            max-width: 600px;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+        .box-proceso p{
+            text-align: left;
+        }
+        .box-h5{
+            margin: 20px auto;
+            max-width: 600px;
+            position: relative;
+            text-align: center;
+        }
+            .box-h5 h5{
+                background: #000;
+                color: #fff;
+                display: inline-block;
+                font: 1.6rem / 1.2 'actobold';
+                margin: 0 auto;
+                padding: 0 10px;
+                position: relative;
+                text-align: center;
+                z-index: 2;  
+            }
+            span.linea{
+                background-color: #fff;
+                height: 1px;
+                left: 0;
+                position: absolute;
+                top: 50%;
+                width: 100%;
+            }
+        ul.pasos{
+            margin: 0 auto;
+            padding: 40px 0 60px;
+            text-align: center;
+        }
+            ul.pasos li{
+                display: inline-block;
+                text-align: left;
+                vertical-align: top;
+            }
+                ul.pasos li h6{
+                    color: #A68939;
+                    display: inline-block;
+                    font: 9rem/120px 'Chronicle Display Semibold Italic';
+                    margin: 0 auto;
+                    vertical-align: top;
+                }
+                .box-info-paso{
+                    display: inline-block;
+                    padding-left: 30px;
+                    text-align: left;
+                    vertical-align: top;
+                }
+                    .box-info-paso h5{
+                        color: #fff;
+                        font: 1.2em / 1.2 'actobold';
+                        margin: 0 auto;
+                    }
+                    .box-info-paso p{
+                        font-size: 1rem;
+                        margin: 0 auto;
+                        max-width: 300px;
+                        padding: 0;
+                        text-align: left;
+                    }
+                ul.pasos li:nth-child(2) .box-info-paso{
+                    max-width: 280px;
+                }
+
+        .box-vestimenta-cardenal{
+            
+        }
+            .box-parallax{
+
+            }
+                .section{
+                    height: 100vh;
+                    position: relative;
+                    width: 100%;
+                }
+                    .block {
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 25%;
+                        height: 100vh;
+                        left: 0;
+                        opacity: 0;
+                        position: absolute;
+                        top: 0;            
+                        width: 100%; 
+                    }  
+                        #block-1 {
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-01.webp?v2');
+                            opacity: 1; 
+                            z-index: 10;
+                        }    
+                        #block-2 {
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-02.png');
+                            opacity: 0; 
+                            z-index: 20;
+                        }       
+                        #block-3 {
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-03.png');
+                            opacity: 0; 
+                            z-index: 30;
+                        } 
+                        #block-4 {            
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-04.png');
+                            opacity: 0; 
+                            z-index: 40;
+                        }  
+                        #block-5 {        
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-05.png');    
+                            opacity: 0;
+                            z-index: 50;
+                        }
+                        #block-6 {        
+                            background-image: url('https://nuevasnarrativasec.github.io/conclave/img/cardenal-06.png');    
+                            opacity: 0;
+                            z-index: 60;
+                        }
+    .box-eleccion{
+        background-color: #fff;
+        margin-top: -125px;
+        padding-top: 75px;
+    }
+        .box-eleccion h4{
+            text-align: center;
+        }
+        .box-eleccion .box-h5{
+            text-align: center;
+        }
+            .box-eleccion .box-h5 h5,
+            .box-paises .box-h5 h5,
+            .box-sede .box-h5 h5,
+            .box-proceso .box-h5 h5{
+                background-color: #fff;
+                color: #000;
+            }
+            .box-eleccion .box-h5 span.linea,
+            .box-paises .box-h5 span.linea,
+            .box-sede .box-h5 span.linea,
+            .box-proceso .box-h5 span.linea{
+                background-color: #000;
+            }
+        .box-eleccion p,
+        .box-proceso p{
+            color: #000;
+        }
+        img.grafico-1{
+            display: block;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+    .box-paises{
+        background-color: #fff;
+        padding-top: 10px;
+    }
+        .box-parallax-mapa{
+
+        }
+            .box-parallax-mapa .block{
+                background-size: 55%;
+            }
+            #block-7 {
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-01.png?v2');
+                opacity: 1; 
+                z-index: 10;
+            }    
+            #block-8 {
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-02.png');
+                opacity: 0; 
+                z-index: 20;
+            }       
+            #block-9 {
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-03.png');
+                opacity: 0; 
+                z-index: 30;
+            } 
+            #block-10 {            
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-04.png');
+                opacity: 0; 
+                z-index: 40;
+            }  
+            #block-11 {        
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-05.png');    
+                opacity: 0;
+                z-index: 50;
+            }
+            #block-12 {        
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-06.png');    
+                opacity: 0;
+                z-index: 60;
+            }
+            #block-13 {        
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-07.png');    
+                opacity: 0;
+                z-index: 70;
+            }
+            #block-14 {        
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-08.png');    
+                opacity: 0;
+                z-index: 80;
+            }
+            #block-15 {        
+                background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-09.png');    
+                opacity: 0;
+                z-index: 80;
+            }
+    ul.cardenales{
+        background-color: #fff;
+        margin: 0 auto 80px;
+        padding: 0;
+        text-align: center;
+    }
+        ul.cardenales li{
+            display: inline-block;
+            max-width: 180px;
+            vertical-align: top;
+        }
+            ul.cardenales li img{
+                max-width: 150px;
+            }
+            ul.cardenales li h5{
+                font: 1.1rem/1.1 'actosemibold';
+                margin: 10px auto;
+            }
+                ul.cardenales li h5 span{
+                    display: block;
+                    font-family: 'actobook';
+                    font-size: 16px;
+                    font-style: italic;
+                }
+            ul.cardenales li p{
+                font: 1rem/1.2 'actobook';
+                margin: 5px auto;
+            }
+        span.separador-cardenales{
+            background-color: #c2c2c2;
+            display: inline-block;
+            height: 300px;
+            margin: 0 30px;
+            vertical-align: bottom;
+            width: 1px;
+        }
+    .box-cardenales-nombrados{
+        background-color: #FFF8E5;
+        padding: 40px 0;
+    }
+        .box-cardenales-nombrados .box-h5 h5{
+            background-color: #FFF8E5;
+            color: #000;
+        }
+        .box-cardenales-nombrados span.linea{
+            background-color: #000;
+        }
+        ul.papas{
+            margin: 10px auto;
+            padding: 30px 0; 
+            text-align: center;
+        }
+            ul.papas li{
+                display: inline-block;
+                vertical-align: top;
+            }
+                ul.papas li img{
+                    max-width: 120px;
+                }
+            ul.papas span.separador-cardenales{
+                margin: 0 50px;
+            }
+    .box-sede{
+        padding: 40px 0;
+    }
+        .box-sede p{
+            color: #000;
+        }
+        img.leyenda-sede{
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 300px;
+        }
+        img.bg-ubicador{
+            display: block;
+            margin: 0 auto;
+            max-width: 300px;
+        }
+        img.bg-sede{
+            display: block;
+            margin: 0 auto;
+            max-width: 900px;
+        }
+    .box-proceso{
+        padding: 100px 0 20px;
+    }
+        .box-encargados{
+            margin: 0 auto;            
+            padding: 40px 0;
+        }
+            .box-proceso h3{
+                font: 1.7rem/1.3 'Chronicle Display Semibold Italic';
+                margin: 0 auto;
+                max-width: 600px;
+            }
+            .box-encargados h4{
+                font:  1.4rem/1.2 'actobold';
+                margin: 0 auto 10px;
+                text-align: center;
+            }
+            .box-encargados p{
+                max-width: 300px;
+            }
+            ul.encargados{
+                margin: 0 auto;
+                padding: 0;
+                text-align: center;
+            }
+                ul.encargados li{
+                    display: inline-block;
+                    margin: 10px;
+                    max-width: 200px;
+                    vertical-align: top;
+                }
+                    ul.encargados li p{
+                        max-width: 170px;
+                    }
+                        ul.encargados li p span{
+                            font-family: 'actobold';
+                        }
+    .box-main-datos{
+
+    }
+        .box-dato{
+            margin: 0 auto 3%;
+            max-width: 500px;
+        }
+            .box-dato h4{
+                color: #B50014;
+                display: inline-block;
+                font: 6rem/60px 'Chronicle Display Semibold Italic';
+                margin: 0 auto;
+                vertical-align: top;
+            }
+            .box-info-dato{
+                display: inline-block;
+                max-width: 380px;
+                padding-left: 20px;
+                text-align: left;
+                vertical-align: top;
+            }
+                .box-info-dato h5{
+                    font: 1.5rem/1.3 'actobold';
+                    margin: 0 auto;
+                    padding-bottom: 10px;
+                }
+                .box-info-dato p{
+                    padding-bottom: 5px;
+                    text-align: left;
+                }
+                    .box-info-dato p i{
+                        border-radius: 30px;
+                        background-color: #B50014;
+                        display: inline-block;
+                        height: 10px;
+                        margin-right: 10px;
+                        vertical-align: baseline;
+                        width: 10px;
+                    }
+                    .border{
+                        border-bottom: 1px solid #c2c2c2;
+                    }
+                img.bg-papeleta{
+
+                }
+                img.bg-papeleta-2,
+                img.bg-escrutinio{
+                    display: block;
+                    margin: 10px auto;
+                    max-width: 250px;
+                }
+                img.bg-escrutinio{
+                    max-width: 500px;
+                }
+                ul.humo{
+                    padding: 20px 0;
+                    text-align: center;
+                }
+                    ul.humo li{
+                        display: inline-block;
+                        margin: 10px 20px;
+                        max-width: 180px;
+                        vertical-align: top;
+                    }
+                        ul.humo li img{
+                            display: block;
+                            margin: 0 auto 20px;
+                            max-width: 150px;
+                        }
+                        ul.humo li p{
+                            font-size: 1rem;
+                            max-width: 155px;
+                            text-align: left;
+                        }
+    ul.creditos{
+        border-top: 1px solid #c2c2c2;
+        list-style-type: none;
+        margin: 0 auto;
+        max-width: 900px;
+        padding: 40px 0 0;
+    }
+        ul.creditos li{
+            margin: 0 auto;
+        }
+            ul.creditos li p{
+                font-size: 1rem;
+                padding: 0 0 10px;
+            }
+                ul.creditos li p span{
+                    display: block;
+                    font-family: 'actobold';
+                }
+    a.btn-tag{
+        background-color: #B50014;
+        border-radius: 32px;
+        box-sizing: border-box;
+        color: #fff;
+        display: block;
+        font: 1rem/1.2 'actobold';
+        margin: 20px auto 40px;
+        max-width: 250px;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+        a.btn-tag:hover{
+            text-decoration: underline;
+        }
+
+    .box-foto{
+        box-sizing: border-box;
+        margin: 30px auto;
+        max-width: 700px;
+    }
+        .box-foto img{
+            padding-bottom: 10px;
+            width: 100%;
+        }
+        .box-foto p.leyenda{
+            font: 1rem/1.3 'actobook';
+            max-width: 100%;
+            width: 90%;
+        }
+
+
+@media (max-width: 640px) {
+
+    .box-titulo h1{
+        font-size: 4.5rem;
+    }
+    .box-titulo h2{
+        font-size: 1.5rem;
+    }
+    .box-bajada h3{
+        padding: 40px 20px;
+    }
+    .box-cardenales h4, 
+    .box-eleccion h4{
+        padding: 0 20px;
+    }
+    .box-cardenales p, 
+    .box-eleccion p, 
+    .box-sede p, .box-proceso p{
+        padding: 0 20px 40px;
+    }
+    .box-h5{
+        margin: 20px; 
+    }
+    ul.pasos li,
+    .box-info-paso{
+        text-align: center;
+    }
+    ul.pasos li h6{
+        display: block;
+    }
+    .box-info-paso{
+        padding: 0;
+    }
+    .box-info-paso h5{
+        margin-bottom: 20px;
+    }
+    .box-cardenales p{
+        text-align: center;
+    }
+    .block{
+        background-size: 80%;
+    }
+    #section-mapa{
+
+    }
+    .box-parallax-mapa .block{
+        background-size: 95%;
+    }
+    ul.cardenales{
+        margin-top: -250px;
+    }
+    ul.cardenales li{
+        max-width: 250px;
+    }
+    span.separador-cardenales{
+        display: block;
+        height: 1px;
+        margin: 20px auto;
+        width: 50%;
+    }
+    ul.papas span.separador-cardenales{
+        margin: 0 auto 20px;
+    }
+    .box-dato{
+        text-align: center;
+    }
+    .box-info-dato{
+        padding: 0;
+    }
+    .box-dato h4{
+        margin-bottom: 20px;
+    }
+    .box-info-dato h5{
+        text-align: center;
+    }
+    .box-info-dato .border{
+        margin: 0 5px;
+        padding-bottom: 10px;
+    }
+    #block-15 {        
+        background-image: url('https://nuevasnarrativasec.github.io/conclave/img/mapa-09-movil.jpg?v3');    
+        background-position-y: 51%;
+        opacity: 0;
+        z-index: 80;
+    }
+    .box-proceso h3{
+        width: 90%;
+    }
+
+}
