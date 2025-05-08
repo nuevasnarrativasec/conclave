@@ -72,11 +72,11 @@ body, html {
     width: 100%;
 }
     .header-comercio{   
-        background: #000;    
-        position: absolute;
+        background: #000;
+        position: relative;
         top: 0;
         width: 100%;
-        z-index: 9999999;
+        z-index: 1;
     }
         .ctn-header-comercio{
             margin: 0 auto;     
